@@ -1,11 +1,11 @@
 CCPAWA::Application.routes.draw do
-  get "static/home"
+  match "about" => "static#about"
 
-  get "static/information"
+  match "information" => "static#information"
 
-  get "static/data_and_tools"
+  match "data_and_tools" => "static#data_and_tools"
 
-  get "static/people"
+  match "people" => "static#people"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -56,7 +56,7 @@ CCPAWA::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => "static#home"
+  root :to => "static#about"
 
   # See how all your routes lay out with "rake routes"
 
