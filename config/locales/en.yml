@@ -3,6 +3,9 @@
 
 en:
   hello: "Hello world"
+
+  nav:
+    language: "Language"
   
   information:
     title: "Title of information"
