@@ -1,58 +1,95 @@
-        body {
-          margin: 0;
-          margin-bottom: 25px;
-          padding: 0;
-          background-color: #eee;
-          background: #CCC url(http://data.unep-wcmc.org/images/background.png) repeat-x 0% 0%;
-          font:12px  Arial, Helvetica, sans-serif; 
-          font-size: 13px;
-          color: #333;
-        }
+body {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: #eee;
+  background: #CCC url(http://data.unep-wcmc.org/images/background.png) repeat-x 0% 0%;
+  font:12px  Arial, Helvetica, sans-serif; 
+  font-size: 13px;
+  color: #333;
+}
 
-        h1 {
-          font-size:35px;
-        }
+h1 {
+  font-size:35px;
+  color:#FFF;
+}
 
-        div.container {
-        }
+div.container {
+}
 
-        div.header {
-          color: #eee;
-        }
+div.header {
+  color: #eee;
+}
 
-        div.navigation{
-          -webkit-border-top-left-radius: 3px;
-          -webkit-border-top-right-radius: 3px;
-          -moz-border-radius-topleft: 3px;
-          -moz-border-radius-topright: 3px;
-          border-top-left-radius: 3px;
-          border-top-right-radius: 3px;
-                    
-          background-color:#1c4263;
-        }
+div.navigation{
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+            
+  background-color:#1c4263;
+}
 
-        div.navigation a{
-          text-decoration:none;
-          color:white;
-        }
+div.navigation a{
+  text-decoration:none;
+  color:white;
+}
 
-        ul.menu {
-          margin:0px;
-          list-style-type:none;
-          padding:10px;
-        }
+ul.menu {
+  margin:0px;
+  list-style-type:none;
+  padding:10px;
+}
 
-        ul.menu li {
-          text-align:center;
-        }
+ul.menu li {
+  text-align:center;
+}
 
-        div.main_content {
-          background-color:#FFF;
-          padding:20px;
-        }
+div.main_content {
+  padding: 10px 0px;
+  background-color:#EEE;
+}
 
-        div.footer {
-          background-color:#666;
-          color:#FFF;
-          padding:20px;
-        }
+div.footer {
+  background-color:#666;
+  color:#FFF;
+  padding:20px;
+}
+
+div.box {
+  -moz-box-shadow: 3px 3px 4px #BBB;
+  -webkit-box-shadow: 3px 3px 4px #BBB;
+  box-shadow: 3px 3px 4px #BBB;
+
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+
+div.box h2{
+  background-color: #2767a0;
+  color: #fff;
+  
+  border: solid 1px #2767a0;
+
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+div.box div.box_body{
+  background-color: #FFF;
+
+  border: solid 1px #999;
+  border-top: none;
+
+  padding: 10px;
+  margin: 0px;
+}
+
+div.box p{
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
