@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Climate Change and Protected Areas in West Africa</title>
+  <title><%= t'site_name' %></title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
@@ -9,7 +9,7 @@
 <body>
   <div class="container clearfix">
     <div class="header grid_12">
-      <h1>Climate Change and Protected Areas in West Africa</h1>
+      <h1><%= t'site_name' %></h1>
     </div>
     <div class="navigation grid_12">
       <ul class="menu grid_12">
@@ -19,8 +19,10 @@
       </ul>
     </div>
 
-    <div class="main_content grid_12">
-      <%= yield %>
+    <div class="grid_12">
+      <div class="main_content">
+        <%= yield %>
+      </div>
     </div>
 
     <div class="footer grid_12">
