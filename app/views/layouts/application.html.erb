@@ -25,11 +25,13 @@
       </div>
     </div>
 
-    <div class="footer grid_12">
-      <div class="language_picker">
-        <%= t 'nav.language'%>: <br/>
-        <%= link_to image_tag('/images/flags/en.png'), url_for(:locale => :en) %>
-        <%= link_to image_tag('/images/flags/fr.png'), url_for(:locale => :fr) %>
+    <div class="grid_12">
+      <div class="footer">
+        <div class="language_picker">
+          <%= t 'nav.language'%>: <br/>
+          <%= link_to image_tag('/images/flags/en.png'), url_for(:locale => :en) %>
+          <%= link_to image_tag('/images/flags/fr.png'), url_for(:locale => :fr) %>
+        </div>
       </div>
     </div>
   </div>
