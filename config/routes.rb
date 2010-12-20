@@ -1,11 +1,13 @@
 CCPAWA::Application.routes.draw do
-  match "about" => "static#about"
 
-  match "information" => "static#information"
+  scope "(:locale)", :locale => /en|fr/ do
 
-  match "data_and_tools" => "static#data_and_tools"
+    match "about" => "static#about"
+    match "information" => "static#information"
+    match "data_and_tools" => "static#data_and_tools"
+    match "people" => "static#people"
 
-  match "people" => "static#people"
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

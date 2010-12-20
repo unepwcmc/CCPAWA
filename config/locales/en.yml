@@ -3,3 +3,6 @@
 
 en:
   hello: "Hello world"
+  
+  information:
+    title: "Title of information"
