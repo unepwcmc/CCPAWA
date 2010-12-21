@@ -4,7 +4,7 @@
 $(document).ready(function() 
     { 
       var table = $("#sorted_table")
-      table.tablesorter(); 
+      table.tablesorter({widgets: ['zebra']}); 
 
       $("#filter").keyup(function() {
         $.uiTableFilter( table, this.value );

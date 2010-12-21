@@ -16,14 +16,13 @@
       </thead> 
 
       <tbody> 
-      <% @people.each do |person| %>
-        <tr>
+      <% @people.each_with_index do |person, i| %>
+        <tr class="<%= i%2 == 1 ? 'odd' : 'even' %>">
           <td><h4 class="tabled"><%= person.name %></h4></td>
           <td><%= person.role %></td>
           <td><%= person.organisation %></td>
           <td><%= person.email %></td>
           <td><%= person.country %></td>
-          <td><%= link_to 'Show', person %></td>
         </tr>
       <% end %>
       </tbody> 

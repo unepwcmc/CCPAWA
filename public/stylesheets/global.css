@@ -104,11 +104,17 @@ div.box p{
 h4.tabled {
   margin-top:0;
   margin-bottom:0;
+  
+  padding:5px;
 }
 
 th.header {
   background-color: #1C4263;
   color: #FFF;
+}
+
+tr.odd {
+  background-color: #b4d6f1;
 }
 
 th.header.headerSortDown {
