@@ -3,7 +3,13 @@
 
 $(document).ready(function() 
     { 
-        $("#sorted_table").tablesorter(); 
+      var table = $("#sorted_table")
+      table.tablesorter(); 
+
+      $("#filter").keyup(function() {
+        $.uiTableFilter( table, this.value );
+      })
+
     } 
 ); 
 
