@@ -9,3 +9,11 @@ en:
   
   information:
     title: "Title of information"
+
+  people:
+    title: "People"
+    name: "Name"
+    role: "Role"
+    organisation: "Organisation"
+    email: "Email"
+    country: "Country"

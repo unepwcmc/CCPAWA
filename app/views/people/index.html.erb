@@ -1,0 +1,34 @@
+<div class="box grid_12">
+  <h2><%= t'people.title' %></h2>
+  <div class="box_body">
+    <table class="tablesorter" id="sorted_table">
+      <thead> 
+        <tr>
+          <th><%= t'people.name' %></th>
+          <th><%= t'people.role' %></th>
+          <th><%= t'people.organisation' %></th>
+          <th><%= t'people.email' %></th>
+          <th><%= t'people.country' %></th>
+        </tr>
+      </thead> 
+
+      <tbody> 
+      <% @people.each do |person| %>
+        <tr>
+          <td><%= person.name %></td>
+          <td><%= person.role %></td>
+          <td><%= person.organisation %></td>
+          <td><%= person.email %></td>
+          <td><%= person.country %></td>
+          <td><%= link_to 'Show', person %></td>
+        </tr>
+      <% end %>
+      </tbody> 
+    </table>
+
+    <br />
+
+    <%= link_to 'New Person', new_person_path %>
+  </div>
+</div>
+
