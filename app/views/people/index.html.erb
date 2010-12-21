@@ -21,8 +21,11 @@
           <td><h4 class="tabled"><%= person.name %></h4></td>
           <td><%= person.role %></td>
           <td><%= person.organisation %></td>
-          <td><%= person.email %></td>
+          <td><%= link_to person.email, person.email%></td>
           <td><%= person.country %></td>
+          <td><%= link_to 'Show', person %></td>
+          <td><%= link_to 'Edit', edit_person_path(person) %></td>
+          <td><%= link_to 'Destroy', person, :confirm => 'Are you sure?', :method => :delete %></td>
         </tr>
       <% end %>
       </tbody> 
