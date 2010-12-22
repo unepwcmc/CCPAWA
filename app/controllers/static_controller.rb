@@ -8,7 +8,7 @@ class StaticController < ApplicationController
   def data_and_tools
   end
 
-  def people
+  def docs
   end
 
 end

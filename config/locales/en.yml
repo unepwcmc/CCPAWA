@@ -20,6 +20,14 @@ en:
         name: "Project Summary"
         file: "West Africa - project summary v9 Feb2010- EN.pdf"
 
+  dnt:
+    data:
+      title: "Data portal"
+      intro: "Access project data"
+    tool:
+      title: "Mapping tool"
+      intro: "View the demo"
+
   people:
     title: "People"
     name: "Name"
