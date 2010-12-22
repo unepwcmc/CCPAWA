@@ -5,11 +5,11 @@
       <%= t'information.pd.intro' %>
     </p>
     <ul class="docs_list">
-      <li>
+      <li class="odd">
         <%= link_to t('information.docs.project_summary.name'), '/docs/' + URI.escape(t('information.docs.project_summary.file')) %>
       </li>
       <li>
-        <%= image_tag("WAfrica_Regional_PA_Landcov-web.png", :width => '350px') %>
+        Project Map: <%= link_to image_tag("WAfrica_Regional_PA_Landcov-web.png", :width => '350px'), '/images/WAfrica_Regional_PA_Landcov.jpg' %>
       </li>
     </ul>
   </div>
