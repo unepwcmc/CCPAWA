@@ -117,6 +117,10 @@ tr.odd {
   background-color: #b4d6f1;
 }
 
+li.odd {
+  background-color: #b4d6f1;
+}
+
 th.header.headerSortDown {
   background-image: url(http://tablesorter.com/themes/blue/desc.gif);
   background-color: #2767a0;
@@ -132,3 +136,20 @@ th.header.headerSortUp {
   background-position: 100% 50%;
   background-repeat: no-repeat;
 }
+
+ul.docs_list {
+  margin: 0px 5px 5px;
+  padding-left: 10px;
+}
+
+ul.docs_list li {
+  list-style-type: none;
+
+  padding: 5px
+}
+
+ul.docs_list li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
