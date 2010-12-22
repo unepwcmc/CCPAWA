@@ -13,7 +13,9 @@ $(document).ready(function()
 
     $('#document_tree').jstree({ 
       // the list of plugins to include
-      "plugins" : [ "json_data"],
+      "plugins" : [ "themes", "json_data"],
+
+      "theme": "apple",
 
       "json_data" : { 
         "ajax" : {
@@ -24,7 +26,6 @@ $(document).ready(function()
           "data" : function (n) { 
             // the result is fed to the AJAX request `data` option
             return { 
-              "operation" : "get_children", 
               "id" : n.attr ? n.attr("id") : 1 
             }; 
           }
