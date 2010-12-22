@@ -9,6 +9,16 @@ en:
   
   information:
     title: "Title of information"
+    pd:
+      title: "Project Documents"
+      intro: "Find out everything about the project"
+    gi:
+      title: "General Information"
+      intro: "View interesting reports and studies relevant to the project"
+    docs:
+      project_summary:
+        name: "Project Summary"
+        file: "West Africa - project summary v9 Feb2010- EN.pdf"
 
   people:
     title: "People"

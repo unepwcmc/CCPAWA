@@ -1,2 +1,45 @@
-<h2><%= t 'information.title' %></h2>
-<p>Find me in app/views/static/information.html.erb</p>
+<div class="box grid_5">
+  <h2><%= t 'information.pd.title' %></h2>
+  <div class="box_body">
+    <p>
+      <%= t'information.pd.intro' %>
+    </p>
+    <ul class="docs_list">
+      <li>
+        <%= link_to t('information.docs.project_summary.name'), '/docs/' + URI.escape(t('information.docs.project_summary.file')) %>
+      </li>
+      <li>
+        <%= image_tag("WAfrica_Regional_PA_Landcov-web.png", :width => '350px') %>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="box grid_7">
+  <h2><%= t 'information.gi.title' %></h2>
+  <div class="box_body">
+    <p>
+      <%= t'information.pd.intro' %>
+    </p>
+    <ul class="docs_list">
+      <li>
+        <%= link_to 'A Data_Report_Final.pdf', URI.escape('A Data_Report_Final.pdf') %>
+      </li>
+      <li>
+      <%= link_to 'Annex 1 PROJECT DOCUMENT - West AFrica PA project  June 2010.pdf', URI.escape('Annex 1 PROJECT DOCUMENT - West AFrica PA project  June 2010.pdf') %>
+      </li>
+      <li>
+      <%= link_to 'Annex 2 CEO endorsement letter and tracking sheet.pdf', URI.escape('Annex 2 CEO endorsement letter and tracking sheet.pdf') %>
+      </li>
+      <li>
+      <%= link_to 'Baseline Study B - links between PAs and CC.pdf', URI.escape('Baseline Study B - links between PAs and CC.pdf') %>
+      </li>
+      <li>
+      <%= link_to 'Baseline Study C - policy, awarness and capacity.pdf', URI.escape('Baseline Study C - policy, awarness and capacity.pdf') %>
+      </li>
+      <li>
+      <%= link_to 'Heller2007.pdf', URI.escape('Heller2007.pdf') %>
+      </li>
+    </ul>
+  </div>
+</div>
