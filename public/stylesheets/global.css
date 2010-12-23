@@ -121,6 +121,10 @@ li.odd {
   background-color: #b4d6f1;
 }
 
+table.tablesorter {
+  width:100%;
+}
+
 th.header.headerSortDown {
   background-image: url(http://tablesorter.com/themes/blue/desc.gif);
   background-color: #2767a0;
