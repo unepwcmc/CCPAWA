@@ -14,6 +14,11 @@ h1 {
   color:#FFF;
 }
 
+h1 a{
+  text-decoration: none;
+  color:#FFF;
+}
+
 div.container {
 }
 
