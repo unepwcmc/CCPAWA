@@ -56,6 +56,8 @@ ul.menu {
 
 ul.menu li {
   text-align:center;
+  font-size:1.1em;
+  font-weight: bold;
 }
 
 div.main_content {
@@ -197,3 +199,4 @@ ul.category_switch li.active a{
   color:#FFF;
 }
 
+div.language_picker{ padding-top: 25px;; text-align: right; }

@@ -18,7 +18,13 @@
 <body>
   <div class="container clearfix">
     <div class="header grid_12">
-      <h1><%= link_to t('site_name'), about_path %></h1>
+      <div class="grid_10">
+        <h1><%= link_to t('site_name'), about_path %></h1>
+      </div>
+      <div class="language_picker grid_2">
+        <%= link_to image_tag('/images/flags/en.png'), url_for(:locale => :en) %>
+        <%= link_to image_tag('/images/flags/fr.png'), url_for(:locale => :fr) %>
+      </div>
     </div>
     <div class="navigation grid_12">
       <ul class="menu grid_12">
@@ -34,11 +40,6 @@
 
     <div class="grid_12">
       <div class="footer">
-        <div class="language_picker">
-          <%= t 'nav.language'%>: <br/>
-          <%= link_to image_tag('/images/flags/en.png'), url_for(:locale => :en) %>
-          <%= link_to image_tag('/images/flags/fr.png'), url_for(:locale => :fr) %>
-        </div>
       </div>
     </div>
   </div>
