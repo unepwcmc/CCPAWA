@@ -9,15 +9,21 @@ body {
   color: #333;
 }
 
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#2767A0; }
+
 h1 {
   font-size:35px;
-  color:#FFF;
+  color:#FFFFFF;
 }
 
 h1 a{
+  color: #FFFFFF;
   text-decoration: none;
-  color:#FFF;
 }
+h1 a:visited { color: #FFF; }
+h1 a:hover { color: #FFF; background-color:#2767A0; }
 
 div.container {
 }
