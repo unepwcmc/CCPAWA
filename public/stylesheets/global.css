@@ -175,13 +175,13 @@ ul.category_switch {
   margin:0px;
   list-style-type:none;
   padding:0px;
-  height:30px;
+  height:34px;
 }
 
 ul.category_switch li {
   float:left;
   background-color:#1C4263;
-  border: solid 1px #FFF;
+  border: solid 3px #FFF;
   border-bottom: none;
   padding:5px;
 }
@@ -193,7 +193,7 @@ ul.category_switch li a{
 
 ul.category_switch li.active {
   background-color:#2767A0;
-  border: solid 1px #FFE;
+  border: solid 3px #FFE;
 }
 
 ul.category_switch li.active a{
