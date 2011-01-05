@@ -68,7 +68,8 @@ div.main_content {
 div.footer {
   background-color:#666;
   color:#FFF;
-  padding:20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 div.box {

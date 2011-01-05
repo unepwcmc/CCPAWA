@@ -38,8 +38,12 @@
       <%= yield %>
     </div>
 
-    <div class="grid_12">
-      <div class="footer">
+    <div class="footer grid_12">
+      <div class="grid_10">
+        Climate Change and Protected Areas in West Africa - UNEP-WCMC 2010-<%= Time.now.year %>
+      </div>
+      <div class="grid_2" style="text-align:right;">
+        <%= image_tag 'unep.gif', :padding => '0px'; %><%= image_tag 'wcmc.gif' %>
       </div>
     </div>
   </div>
