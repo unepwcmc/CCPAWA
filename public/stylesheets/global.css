@@ -170,7 +170,7 @@ ul.docs_list li {
 ul.docs_list li.pdf {
   background-image: url(/images/pdficon_small.gif);
   background-repeat: no-repeat;
-  background-position: 5px 10px;
+  background-position: 5px 8px;
 }
 
 ul.docs_list li a{
