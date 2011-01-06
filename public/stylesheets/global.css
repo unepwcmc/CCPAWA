@@ -158,12 +158,19 @@ th.header.headerSortUp {
 ul.docs_list {
   margin: 0px 5px 5px;
   padding-left: 10px;
+
+  list-style:none;
 }
 
 ul.docs_list li {
-  list-style-type: none;
+  padding: 8px;
+  padding-left: 27px;
+}
 
-  padding: 5px
+ul.docs_list li.pdf {
+  background-image: url(/images/pdficon_small.gif);
+  background-repeat: no-repeat;
+  background-position: 5px 10px;
 }
 
 ul.docs_list li a{
