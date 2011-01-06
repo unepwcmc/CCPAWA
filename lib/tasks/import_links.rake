@@ -6,10 +6,10 @@ namespace :data do
 
     CSV.foreach('Data.csv') do |rec|
       puts "        {
-          \"attr\":{\"id\":\"#{rec[2].downcase.gsub(' ', '_')}\", \"class\" : \"#{rec[10]}\"},
+          \"attr\":{\"id\":\"#{rec[2].downcase.gsub(' ', '_').strip}\", \"class\" : \"#{rec[10].to_s.strip}\"},
           \"data\":{
-            \"title\" : \"#{rec[2]}\",
-            \"attr\" : { \"href\" : \"#{"/docs/" + URI.escape(rec[0].to_s + '/' + rec[8].to_s + '.' + rec[9].to_s.downcase) }\" }
+            \"title\" : \"#{rec[2].to_s.strip}\",
+            \"attr\" : { \"href\" : \"#{"/docs/" + URI.escape(rec[0].to_s.strip + '/' + rec[8].to_s + '.' + rec[9].to_s.downcase.strip) }\" }
           },
           \"state\":  \"closed\"
           \"geography: \"#{rec[0]}\"
