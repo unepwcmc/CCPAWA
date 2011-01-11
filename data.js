@@ -1,5 +1,14 @@
 IMPORTANT AND NOT DONE
 ---------------------------------
+  {
+    "attr":{"id":"rappam_et_mett_évaluations", "class" : "Doc"},
+    "data":{
+      "title" : "RAPPAM et METT évaluations",
+      "attr" : { "href" : "http://www.papaco.org/angl%20nos%20evaluations.htm" }
+      },
+    "state":  "closed"
+  }
+
 
 NOT DONE, LESS IMPORTANT
 ---------------------------------
@@ -40,11 +49,6 @@ NOT DONE, LESS IMPORTANT
     filename: ""
     url: "http://sedac.ciesin.columbia.edu/wildareas/downloads.jsp#last"
   },
-
-PENDING
--------------------------------------------
-
-
         {
           "attr":{"id":"global_drought_and_flood_mortality_", "class" : ""},
           "data":{
@@ -56,18 +60,6 @@ PENDING
           location: ""
           filename: ""
           url: ""
-        },
-        {
-          "attr":{"id":"population_density_for_africa__", "class" : "Map"},
-          "data":{
-            "title" : "Population Density for Africa",
-            "attr" : { "href" : "/docs/Regional/Population%20Density%20(Africa).gif" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Ac"
-          filename: "Population Density (Africa)"
-          url: "http://na.unep.net/siouxfalls/datasets/datalist.php"
         },
         {
           "attr":{"id":"global_population_density__", "class" : "Map"},
@@ -115,18 +107,6 @@ PENDING
           "geography: "Regional"
           location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Ac"
           filename: "Continent_Africa_Biome"
-          url: "http://sedac.ciesin.columbia.edu/place/"
-        },
-        {
-          "attr":{"id":"climate_zones_in_africa", "class" : "Map"},
-          "data":{
-            "title" : "Climate Zones in Africa",
-            "attr" : { "href" : "/docs/Regional/Continent_Africa_ClimateZone.jpeg" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Ac"
-          filename: "Continent_Africa_ClimateZone"
           url: "http://sedac.ciesin.columbia.edu/place/"
         },
         {
@@ -228,66 +208,6 @@ PENDING
           url: "http://www.papaco.org/angl%20Nos%20evaluations.htm"
         },
         {
-          "attr":{"id":"rappam_et_mett_évaluations", "class" : "Doc"},
-          "data":{
-            "title" : "RAPPAM et METT évaluations",
-            "attr" : { "href" : "http://www.papaco.org/angl%20nos%20evaluations.htm" }
-            },
-          "state":  "closed"
-          "geography: "Other"
-          location: ""
-          filename: ""
-          url: "http://www.papaco.org/angl%20Nos%20evaluations.htm"
-        },
-        {
-          "attr":{"id":"baseline_study_a", "class" : "Doc"},
-          "data":{
-            "title" : "Baseline Study A",
-            "attr" : { "href" : "/docs/Regional/A%20Data_Report_Final.pdf" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Ac"
-          filename: "A Data_Report_Final"
-          url: ""
-        },
-        {
-          "attr":{"id":"baseline_study_b", "class" : "Doc"},
-          "data":{
-            "title" : "Baseline Study B",
-            "attr" : { "href" : "/docs/Regional/Baseline%20Study%20B%20-%20links%20between%20PAs%20and%20CC.pdf" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Ac"
-          filename: "Baseline Study B - links between PAs and CC"
-          url: ""
-        },
-        {
-          "attr":{"id":"baseline_study_c", "class" : "Doc"},
-          "data":{
-            "title" : "Baseline Study C",
-            "attr" : { "href" : "/docs/Regional/Baseline%20Study%20C%20-%20policy,%20awarness%20and%20capacity.pdf" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Ac"
-          filename: "Baseline Study C - policy, awarness and capacity"
-          url: ""
-        },
-        {
-          "attr":{"id":"human_influence_index_for_west_africa", "class" : "Map"},
-          "data":{
-            "title" : "Human Influence Index for West Africa",
-            "attr" : { "href" : "/docs/Regional/WAfrica_Regional_HII.jpeg/tiff" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data Page\JPEGS"
-          filename: "WAfrica_Regional_HII"
-          url: ""
-        },
-        {
           "attr":{"id":"human_influence_index_for_chad_", "class" : "Map"},
           "data":{
             "title" : "Human Influence Index for Chad",
@@ -345,18 +265,6 @@ PENDING
           "geography: "Togo"
           location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data Page\JPEGS"
           filename: "TOGO_HII_DRAFT"
-          url: ""
-        },
-        {
-          "attr":{"id":"protected_areas_for_west_africa_", "class" : "Map"},
-          "data":{
-            "title" : "Protected Areas for West Africa",
-            "attr" : { "href" : "/docs/Regional/WAfrica_Regional_PA_Landcov.jpeg/tiff" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data Page\JPEGS"
-          filename: "WAfrica_Regional_PA_Landcov"
           url: ""
         },
         {
@@ -420,18 +328,6 @@ PENDING
           url: ""
         },
         {
-          "attr":{"id":"population_density_for_west_africa_", "class" : "Map"},
-          "data":{
-            "title" : "Population Density for West Africa",
-            "attr" : { "href" : "/docs/Regional/WAfrica_Regional_POP.jpeg/tiff" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data Page\JPEGS"
-          filename: "WAfrica_Regional_POP"
-          url: ""
-        },
-        {
           "attr":{"id":"population_density_for_chad_", "class" : "Map"},
           "data":{
             "title" : "Population Density for Chad",
@@ -489,18 +385,6 @@ PENDING
           "geography: "Togo"
           location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data Page\JPEGS"
           filename: "TOGO_POP_Density_DRAFT"
-          url: ""
-        },
-        {
-          "attr":{"id":"priority_conservation_areas_in_west_africa_", "class" : "Map"},
-          "data":{
-            "title" : "Priority Conservation Areas in West Africa",
-            "attr" : { "href" : "/docs/Regional/WAfrica_Regional_BIO_CONS.jpeg/tiff" }
-            },
-          "state":  "closed"
-          "geography: "Regional"
-          location: "P:\PROJECTS\2700s\2752 West African Protected Areas\Project Files\3 Components\4 Knowledge Management\Activity 4.3(a)&(b) - Website & Data Portal\Data Page\JPEGS"
-          filename: "WAfrica_Regional_BIO_CONS"
           url: ""
         },
         {
@@ -563,4 +447,8 @@ PENDING
           filename: "TOGO_ BIO_CONS_DRAFT"
           url: ""
         }
+
+
+PENDING
+-------------------------------------------
 
