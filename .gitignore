@@ -2,3 +2,4 @@
 *.swo
 log/*
 *.DS_Store
+tmp/pids/server.pid
