@@ -6,7 +6,7 @@ set :bundle_flags,    "--without test"
 #
 # Application
 #
-set :application, "scdclient"
+set :application, "ccpawa"
 set :user, "root"
 #set :domain, "demoapps.unep-wcmc.org"
 set :deploy_to, "/var/www/#{application}"
