@@ -21,6 +21,22 @@
               "attr" : { "href" : "/docs/Global/Global200.pdf" }
             },
             "state":  "closed"
+          },
+          {
+            "attr":{"id":"human_footprint", "class" : "ArcInfo Grids"},
+            "data":{
+              "title" : "Human Footprint",
+              "attr" : { "href" : "http://sedac.ciesin.columbia.edu/wildareas/downloads.jsp" }
+              },
+            "state":  "closed"
+          },
+          {
+            "attr":{"id":"human_influence_index", "class" : "ArcInfo Grids"},
+            "data":{
+              "title" : "Human Influence Index",
+              "attr" : { "href" : "http://sedac.ciesin.columbia.edu/wildareas/downloads.jsp" }
+              },
+            "state":  "closed"
           }
       ]
     },
@@ -29,7 +45,25 @@
       "data":{
         "title" : "Regional Data"
       },
-      "state":  "closed"
+      "state":  "closed",
+      "children": [
+        {
+          "attr":{"id":"population_density_for_africa__", "class" : "Map"},
+          "data":{
+            "title" : "Population Density for Africa",
+            "attr" : { "href" : "/docs/Regional/Population%20Density%20(Africa).gif" }
+            },
+          "state":  "closed"
+        },
+        {
+          "attr":{"id":"climate_zones_in_africa", "class" : "Map"},
+          "data":{
+            "title" : "Climate Zones in Africa",
+            "attr" : { "href" : "/docs/Regional/Continent_Africa_ClimateZone.jpg" }
+            },
+          "state":  "closed"
+        }
+      ]
     },
     {
       "attr":{"id":"national", "class" : "folder"},
@@ -130,6 +164,14 @@
           },
           "state":  "closed",
           "children": [
+            {
+              "attr":{"id":"undp_climate_change_profiles", "class" : "Docs"},
+              "data":{
+                "title" : "UNDP Climate Change Profiles",
+                "attr" : { "href" : "http://country-profiles.geog.ox.ac.uk/" }
+                },
+              "state":  "closed"
+            },
             {
               "attr":{"id":"population_of_the_world", "class" : "Map"},
               "data":{
