@@ -6,7 +6,7 @@ set :bundle_flags,    "--without test"
 #
 # Application
 #
-set :application, "scdclient"
+set :application, "ccpawa"
 set :user, "root"
 #set :domain, "demoapps.unep-wcmc.org"
 set :deploy_to, "/var/www/#{application}"
@@ -27,7 +27,6 @@ set :repository, "git@github.com:unepwcmc/CCPAWA.git"
 set :scm, :git
 set :branch, "master"
 set :scm_username, "unepwcmc-read"
-set :scm_password, "informatics1"
 #set :git_enable_submodules, 1
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
