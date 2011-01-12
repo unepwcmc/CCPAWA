@@ -35,7 +35,8 @@
     </div>
 
     <div class="main_content grid_12">
-      <%= I18n.available_locales.join(', ') %>
+      <%= "Available Locales: #{I18n.available_locales.join(', ')}" %>
+      <%= "Current Locale: #{I18n.locale}" %>
       <%= yield %>
     </div>
 
