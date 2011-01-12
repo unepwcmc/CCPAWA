@@ -67,6 +67,7 @@ end
 
 task :create_sym_links do
   run "(rm #{release_path}/config/database.yml && ln -s #{shared_path}/config/database.yml #{release_path}/config/database.yml) || echo 'not ready for this'"
+  run "(rm #{release_path}/config/locales/fr.yml && ln -s #{shared_path}/config/locales/fr.yml #{release_path}/config/locales/fr.yml) || echo 'not ready for this'"
   run "(rm -rf #{release_path}/public/system && ln -s #{shared_path}/system #{release_path}/public/) || echo 'not ready for this'"
 end
 
