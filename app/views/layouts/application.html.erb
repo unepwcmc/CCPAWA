@@ -35,8 +35,7 @@
     </div>
 
     <div class="main_content grid_12">
-      <% debugger %>
-      <%= I18n.locale %>
+      <%= I18n.available_locales.join(', ') %>
       <%= yield %>
     </div>
 
