@@ -35,8 +35,10 @@
     </div>
 
     <div class="main_content grid_12">
-      <%= "Available Locales: #{I18n.available_locales.join(', ')}" %>
-      <%= "Current Locale: #{I18n.locale}" %>
+      <%= "Available Locales: #{I18n.available_locales.join(', ')}" %><br/>
+      <%= "Current Locale: #{I18n.locale}" %><br/>
+      <%= "Translate 'site_name': #{I18n.translate 'site_name'}" %><br/>
+      <%= "Translate 'DERP': #{I18n.translate 'DERP'}" %><br/>
       <%= yield %>
     </div>
 
