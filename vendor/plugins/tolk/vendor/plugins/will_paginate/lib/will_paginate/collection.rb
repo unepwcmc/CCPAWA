@@ -130,6 +130,7 @@ module WillPaginate
     # +total_entries+ and set it to a proper value if it's +nil+. See the example
     # in +create+.
     def replace(array)
+      #array = [] if array.nil?
       result = super
       
       # The collection is shorter then page limit? Rejoice, because
