@@ -1,4 +1,5 @@
 [
+  <% if params[:id] == '1'  %>
     {
       "attr":{"id":"global", "class" : "folder"},
       "data":{
@@ -240,15 +241,5 @@
         }
       ]
     }
-  <% if params[:id] == 'countryd' %>
-    {
-      "attr":{"id":"document", "class" : ""},
-      "data":{
-        "title" : "Document about nation",
-        "attr" : { "href" : "<%= "/docs/" + URI.escape('Annex 1 PROJECT DOCUMENT - West AFrica PA project  June 2010.pdf') %>" }
-      },
-      "state":  "closed"
-    }
-
   <% end %>
 ]
