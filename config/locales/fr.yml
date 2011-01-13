@@ -1,3 +1,41 @@
 fr: 
+  dnt: 
+    tool: 
+      intro: "Voir la d\xC3\xA9mo"
+      title: Outil de cartographie
+    data: 
+      title: "Portail de donn\xC3\xA9es"
+  datetime: 
+    prompts: 
+      day: Jour
+      hour: Heure
+      minute: Minute
+      month: Mois
+      second: Secondes
+      year: "Ann\xC3\xA9e"
   information: 
-    title: "Title de information"
+    docs: 
+      project_summary: 
+        name: "R\xC3\xA9sum\xC3\xA9 du projet"
+    gi: 
+      intro: "Afficher des rapports int\xC3\xA9ressants et des \xC3\xA9tudes pertinentes pour le projet"
+      title: "Informations g\xC3\xA9n\xC3\xA9rales"
+    pd: 
+      intro: Pour tout savoir sur le projet
+      title: Documents du projet
+  nav: 
+    language: Langue
+  number: 
+    human: 
+      decimal_units: 
+        units: 
+          million: Million
+          thousand: Mille
+  people: 
+    country: Pays
+    email: Email
+    name: Nom
+    organisation: Organisation
+    role: "R\xC3\xB4le"
+  site_name: "Les Changements Climatiques et les Aires Prot\xC3\xA9g\xC3\xA9es en Afrique de l'Ouest"
+
