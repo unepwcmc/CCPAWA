@@ -210,3 +210,6 @@ ul.category_switch li.active a{
 }
 
 div.language_picker{ padding-top: 25px;; text-align: right; }
+
+img.locale_flag {padding:1px;}
+img.active_locale {background-color:white;}
