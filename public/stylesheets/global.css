@@ -51,11 +51,13 @@ div.navigation a{
 ul.menu {
   margin:0px;
   list-style-type:none;
-  padding:10px;
+  padding:7px;
 }
 
 ul.menu li {
+  line-height:25px;
   text-align:center;
+  height:25px;
   font-size:1.1em;
   font-weight: bold;
 }
