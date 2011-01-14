@@ -79,7 +79,7 @@ module WillPaginate
           
           args << find_options
           # @options_from_last_find = nil
-          result = send(finder, *args) { |*a| yield(*a) if block_given? }
+          #result = send(finder, *args) { |*a| yield(*a) if block_given? } #You may need to uncomment this
           result ||= send(finder, *args) 
           pager.replace(result)
           
