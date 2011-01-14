@@ -1,3 +1,4 @@
+--- 
 fr: 
   dnt: 
     tool: 
@@ -17,12 +18,14 @@ fr:
     docs: 
       project_summary: 
         name: "R\xC3\xA9sum\xC3\xA9 du projet"
+        file: West Africa - project summary v8 - FR.pdf
     gi: 
       intro: "Afficher des rapports int\xC3\xA9ressants et des \xC3\xA9tudes pertinentes pour le projet"
       title: "Informations g\xC3\xA9n\xC3\xA9rales"
     pd: 
       intro: Pour tout savoir sur le projet
       title: Documents du projet
+    title: Title de information
   nav: 
     language: Langue
   number: 
@@ -31,6 +34,18 @@ fr:
         units: 
           million: Million
           thousand: Mille
+    currency: 
+      format: 
+        delimiter: ","
+        separator: .
+        significant: f
+        strip_insignificant_zeros: f
+        unit: $
+    format: 
+      delimiter: ","
+      separator: .
+      significant: f
+      strip_insignificant_zeros: f
   people: 
     country: Pays
     email: Email
@@ -38,4 +53,9 @@ fr:
     organisation: Organisation
     role: "R\xC3\xB4le"
   site_name: "Les Changements Climatiques et les Aires Prot\xC3\xA9g\xC3\xA9es en Afrique de l'Ouest"
+  support: 
+    array: 
+      last_word_connector: ", et"
+      two_words_connector: et
+      words_connector: ","
 
