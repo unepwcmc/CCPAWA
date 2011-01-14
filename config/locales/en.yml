@@ -35,3 +35,10 @@ en:
     organisation: "Organisation"
     email: "Email"
     country: "Country"
+
+  template:
+    created_by: "Website created by"
+    nav:
+      information: "Information"
+      data_and_tools: "Data and Tools"
+      people: "People"

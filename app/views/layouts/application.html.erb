@@ -29,9 +29,9 @@
     <div class="navigation grid_12">
       <ul class="menu grid_12">
         <li class="grid_1" style="text-align:left"><%= link_to image_tag("home.png"), about_path %></li>
-        <li class="grid_3"><%= link_to "Information", information_path %></li>
-        <li class="grid_5"><%= link_to "Data and Tools", data_and_tools_path %></li>
-        <li class="grid_3"><%= link_to "People", people_path %></li>
+        <li class="grid_3"><%= link_to t("template.nav.information"), information_path %></li>
+        <li class="grid_5"><%= link_to t("template.nav.data_and_tools"), data_and_tools_path %></li>
+        <li class="grid_3"><%= link_to t("template.nav.people"), people_path %></li>
       </ul>
     </div>
 
@@ -42,7 +42,7 @@
     <div class="footer grid_12">
       <div class="grid_4">
         <%= t('site_name') %> <br/>
-        Website created by UNEP-WCMC 2010-<%= Time.now.year %>
+        <%= t('template.created_by')%> UNEP-WCMC 2010-<%= Time.now.year %>
       </div>
       <div class="grid_8" style="">
         <%= link_to image_tag("/images/logos/unep_wcmc.png", :title =>"UNEP WCMC"), "http://www.unep-wcmc.org" %>
