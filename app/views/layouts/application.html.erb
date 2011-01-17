@@ -29,9 +29,9 @@
     <div class="navigation grid_12">
       <ul class="menu grid_12">
         <li class="grid_1" style="text-align:left"><%= link_to image_tag("home.png"), about_path %></li>
-        <li class="grid_3"><%= link_to t("template.nav.information"), information_path %></li>
-        <li class="grid_5"><%= link_to t("template.nav.data_and_tools"), data_and_tools_path %></li>
-        <li class="grid_3"><%= link_to t("template.nav.people"), people_path %></li>
+        <li class="grid_3 <%= 'active_nav' if controller.action_name == 'information' %>"><%= link_to t("template.nav.information"), information_path %></li>
+        <li class="grid_5 <%= 'active_nav' if controller.action_name == 'data_and_tools' %>"><%= link_to t("template.nav.data_and_tools"), data_and_tools_path %></li>
+        <li class="grid_3 <%= 'active_nav' if controller.controller_name == 'people' %>" ><%= link_to t("template.nav.people"), people_path %></li>
       </ul>
     </div>
 
