@@ -222,3 +222,15 @@ div.footer_title {
   vertical-align: bottom;
   padding-top:100px;
 }
+
+ul li.active_nav {
+  background-color:white;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+ul li.active_nav a{
+  color:#1c4263;
+}
