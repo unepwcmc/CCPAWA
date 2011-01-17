@@ -40,11 +40,7 @@
     </div>
 
     <div class="footer grid_12">
-      <div class="grid_4">
-        <%= t('site_name') %> <br/>
-        <%= t('template.created_by')%> UNEP-WCMC 2010-<%= Time.now.year %>
-      </div>
-      <div class="grid_8" style="">
+      <div class="grid_8 partner_logos">
         <%= link_to image_tag("/images/logos/unep.png", :title =>"UNEP DGEF"), "http://www.unep.org/dgef" %>
         <%= link_to image_tag("/images/logos/wcmc.png", :title =>"UNEP-WCMC"), "http://www.unep-wcmc.org" %>
         <%= link_to image_tag("/images/logos/GEF.png", :title =>"GEF"), "http://www.thegef.org/gef/" %>
@@ -55,11 +51,16 @@
         <%= link_to image_tag("/images/logos/met_office_hadley_centre.png", :title =>"Met Office - Hadley Centre"), "http://www.metoffice.gov.uk/climatechange/science/hadleycentre/" %>
         <%= link_to image_tag("/images/logos/fauna_and_flora_international.png", :title =>"Fauna and Flora International"), "http://www.fauna-flora.org/ " %>
         <%= link_to image_tag("/images/logos/iucn_species_programme.png", :title =>"IUCN species programme"), "http://www.iucn.org/species/" %><br/>
+
         <%= image_tag("/images/logos/goverment_of_mali.png", :title =>"Goverment of Mali") %>
         <%= image_tag("/images/logos/goverment_of_sierra_leone.png", :title =>"Goverment of Sierra Leone") %>
         <%= image_tag("/images/logos/goverment_of_togo.png", :title =>"Goverment of Togo")%>
         <%= image_tag("/images/logos/government_of_chad.png", :title =>"Government of Chad")%>
         <%= image_tag("/images/logos/government_of_gambia.png", :title =>"Government of the Gambia")%>
+      </div>
+      <div class="grid_4 footer_title">
+        <%= t('site_name') %> <br/>
+        <%= t('template.created_by')%> UNEP-WCMC 2010-<%= Time.now.year %>
       </div>
     </div>
   </div>

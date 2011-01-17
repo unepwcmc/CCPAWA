@@ -213,3 +213,12 @@ div.language_picker{ padding-top: 25px;; text-align: right; }
 
 img.locale_flag {padding:1px;}
 img.active_locale {background-color:white;}
+
+div.partner_logos {
+}
+
+div.footer_title {
+  text-align: right;
+  vertical-align: bottom;
+  padding-top:100px;
+}
