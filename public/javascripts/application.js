@@ -35,8 +35,7 @@ $(document).ready(function()
     
     });
 
-    $("#document_tree a").live("click", function(e) {
-      if (e.target.baseURI == e.target.href || e.target.baseURI + '#' == e.target.href)
+    $("#document_tree .folder a").live("click", function(e) {
         $("#document_tree").jstree("toggle_node", e.target);
     }) 
   } 
