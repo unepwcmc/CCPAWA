@@ -5,6 +5,7 @@ CCPAWA::Application.routes.draw do
     match "data_and_tools" => "static#data_and_tools"
 
     match "docs" => "static#docs"
+    match "topic_docs" => "static#topic_docs"
 
     resources :people
   end
