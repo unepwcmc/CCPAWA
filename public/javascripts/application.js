@@ -30,9 +30,15 @@ $(document).ready(function()
             }; 
           }
         }
+        
       }
+    
     });
 
+    $("#document_tree a").live("click", function(e) {
+      if (e.srcElement.baseURI == e.srcElement.href || e.srcElement.baseURI + '#' == e.srcElement.href)
+        $("#document_tree").jstree("toggle_node", e.srcElement);
+    }) 
   } 
 ); 
 
