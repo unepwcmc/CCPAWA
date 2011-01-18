@@ -4,9 +4,9 @@
     <p>
       <%= t'dnt.data.intro' %>
     </p>
-    <ul class="category_switch ">
-      <li class="active"><%= link_to "Browse by region", '#' %></li>
-      <li><%= link_to "Browse by topic", '#' %></li>
+    <ul id="category_switches" class="category_switch ">
+      <li tree_url="/docs.js" class="active"><%= link_to "Browse by region", '#' %></li>
+      <li tree_url="/topic_docs.js"><%= link_to "Browse by topic", '#' %></li>
     </ul>
     <div id="document_tree">
     </div>
@@ -22,3 +22,9 @@
     <%= image_tag "mapping_tool_video.png" %>
   </div>
 </div>
+
+<script type='text/javascript'>
+  $('#category_switches li').live("click", function(e) {
+      createJSTree(this.attributes['tree_url'].value);
+  });
+</script>

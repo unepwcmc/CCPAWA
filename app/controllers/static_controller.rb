@@ -11,4 +11,7 @@ class StaticController < ApplicationController
   def docs
   end
 
+  def topic_docs
+  end
+
 end
