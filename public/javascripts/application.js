@@ -38,9 +38,8 @@ $(document).ready(function()
 
     createJSTree("/docs.js");
 
-
     $("#document_tree .folder a").live("click", function(e) {
-        $("#document_tree").jstree("toggle_node", e.target);
+      $("#document_tree").jstree("toggle_node", e.target);
     }) 
   } 
 ); 
