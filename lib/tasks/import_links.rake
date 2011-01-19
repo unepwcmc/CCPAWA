@@ -51,6 +51,7 @@ namespace :data do
     sorted_data = {}
     data.each do |d|
       topic = title_topic[d["data"]["title"]]
+      topic = "General" if topic == "(all)"
       sorted_data[topic] ||= {
         "attr"=> {"id"=> topic.strip.downcase.gsub(' ', '_'), "class" => "folder"},
           "data"=>{
