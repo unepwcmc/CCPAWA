@@ -1,5 +1,5 @@
 <div class="box grid_8">
-  <h2>About the project</h2>
+  <h2><%= t("about.about_title") %></h2>
   <div class="box_body">
     <p>
       <%= t('about.about_p1') %>
@@ -20,7 +20,7 @@
 </div>
 
 <div class="box grid_4">
-  <h2>Map of project area</h2>
+  <h2><%= t("about.map_title") %></h2>
   <div class="box_body">
     <%= link_to image_tag("areas_map-small.png", :width => '350px'), '/images/areas_map.jpg' %>
   </div>
