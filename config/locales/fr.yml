@@ -1,60 +1,228 @@
 fr: 
-  dnt: 
-    tool: 
-      intro: "Voir la d\xC3\xA9mo"
-      title: Outil de cartographie
-    data: 
-      title: "Portail de donn\xC3\xA9es"
+  about: 
+    about_p1: "Bienvenu sur le site internet du projet des Changements Climatiques et les Aires Protégées en Afrique de l'Ouest (CCAPAO)! Nous vous encourageons à explorer ce site afin de découvrir le contenu du projet."
+    about_p2: "CCAPAO est un projet à l'échelle régionale axée sur le changement climatique  et le problème des aires protégées, qui renforcera les capacités de compréhension et gestion de ces zones protégées d'Afrique de l'Ouest dans le cadre de changements climatiques. Le projet rassemble cinq principaux pays d'Afrique de l'Ouest (Tchad, Gambie, Mali, Sierra Leone et Togo) toutefois l'ouvrage en lui-même se consacrera à la résolution de problèmes à l'échelle régionale. Les aires protégées ont longtemps été utilisées en tant que qu'instrument de mesure pour la conservation des valeurs multiples de la biodiversité  Cet instrument s'avère cependant soumis à de fortes et grandissantes pressions de la part des  anthropiques ou autres menaces que le changement climatique ne manquera pas d'intensifier. Ainsi l'objectif global du projet est:"
+    about_p3: "\"La conservation et la gestion durable des écosystèmes témoins issus des zones protégées en Afrique de l’Ouest sont favorisée grâce à une évaluation et une adaptation renforcée aux impacts du changement climatique.\""
+    about_p4: "Les principaux éléments du projet seront (a) l'identification des risques afin les zones protégées en raison de la variabilité des menaces liées aux changements climatiques (b) la planification pour mesures d'adaptation recommandées afin être de minimiser ces dangers (c) l'assurance que ces dangers soient réduits à un niveau acceptable au travers de changements à long terme écologiquement rationnels, économiquement viable et socialement acceptable Potentiellement il y a de grands avantages pour toute la région ouest-africaine à utiliser les outils qui seront développés à la fois sur plan national et régional afin d'encourager une meilleure gestion des systèmes de zones protégées en réponse aux changements climatiques et autres impacts dus au changement . Il est suggéré que le développement de nouvelles techniques et modèles d'approche mis en œuvre par le projet seront également très utiles pour d'autres régions présentant des défis similaires."
+    about_p5: "Financé par le Fonds pour l'Environnement Mondial (FEM), complémenté par le Programme des Nations Unies pour l'Environnement (PNUE), le projet se déroulera de mi 2010 à 2015 avec pour budget : 15 millions USD dont 3 millions USD récolté par le FEM et 12 millions USD en provenance de co-partenariats financiers. Le projet est mis en œuvre par le Centre Mondial de Surveillance de la Conservation de la Nature du PNUE (PNUE-WCMC), l'Union Internationale pour la Conservation de la Nature - Programme des Aires Protégées d’Afrique Centrale et de l’Ouest (UICN PAPACO) en collaboration avec les gouvernements de cinq pays capitaux et autres partenaires techniques. Burkina Faso, Côte d'Ivoire, Ghana puis éventuellement d'autres états seront également impliqué dans ces activités de conservation transfrontalières. "
+    about_title: "A propos du projet"
+    map_title: "Cartographie des zones du projet"
+  activerecord: 
+    errors: 
+      messages: 
+        record_invalid: "La validation a échouée: %{erreur}"
+        taken: "a déjà été sélectionné"
+  date: 
+    abbr_day_names: 
+      - Dim
+      - Lun
+      - Mar
+      - Mer
+      - Jeu
+      - Ven
+      - Sam
+    abbr_month_names: 
+      - Jan
+      - Fév
+      - Mar
+      - Avr
+      - Mai
+      - Jui
+      - Juil
+      - Août
+      - Sept
+      - Oct
+      - Nov
+      - Déc
+    day_names: 
+      - Dimanche
+      - Lundi
+      - Mardi
+      - Mercredi
+      - Jeudi
+      - Vendredi
+      - Samedi
+    formats: 
+      short: "%b%d "
+    month_names: 
+      - Janvier
+      - Février
+      - Mars
+      - Avril
+      - Mai
+      - Juin
+      - Juillet
+      - Août
+      - Septembre
+      - Octobre
+      - Novembre
+      - Décembre
+    order: 
+      - 
+        ? !ruby/symbol "@taguri"
+        : "tag:rubie.yaml.org,2002:symbole"
+        str: année
+      - "rubie /symbole mois"
+      - 
+        ? !ruby/symbol "@taguri"
+        : "tag:yaml.org,2002:rubie"
+        str: "/symbole jour"
   datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        autres: "environ %{total} heure"
+        un: "environ 1 heur"
+      about_x_months: 
+        autres: "environ %{total} mois"
+        un: "environ 1 mois"
+      about_x_years: 
+        autres: "environ %{total} année"
+        un: "environ 1 année"
+      almost_x_years: 
+        autres: "presque %{total} années"
+        un: "presque 1 année"
+      half_a_minute: "une demi-minute"
+      less_than_x_minutes: 
+        autres: "moins de %{nombre} minutes"
+        un: "moins d’une minute"
+      less_than_x_seconds: 
+        autres: "moins de %{nombre} secondes"
+        un: "moins d’une seconde"
+      over_x_years: 
+        autres: "plus %{total} années"
+        un: "plus d’1 année"
+      x_days: 
+        autres: "%{total} jour"
+        un: "1 jour"
+      x_minutes: 
+        autres: "%{total} minutes"
+        un: "1 minute"
+      x_months: 
+        autres: "%{total} mois"
+        un: "1 mois"
+      x_seconds: 
+        autres: "%{total} secondes"
+        un: "1 seconde"
     prompts: 
       day: Jour
       hour: Heure
       minute: Minute
       month: Mois
       second: Secondes
-      year: "Ann\xC3\xA9e"
+      year: Année
+  dnt: 
+    data: 
+      browse_region: "Rechercher par Régions"
+      browse_topic: "Rechercher par Sujet"
+      intro: "Accès aux données du projet "
+      title: "Portail de données"
+    tool: 
+      intro: "Voir la démo"
+      title: "Outil de cartographie"
+  errors: 
+    format: "%{attribut} %{message} "
+    messages: 
+      accepted: "doit être accepté "
+      blank: "ne peut pas être vide"
+      confirmation: "ne correspond pas à la confirmation"
+      empty: "ne peut pas être vide"
+      equal_to: "doit être égale"
+      even: "doit être équivalent"
+      exclusion: "est réservé"
+      greater_than: "doit être supérieur à %{total}"
+      greater_than_or_equal_to: "doit être supérieur ou égale à %{total}"
+      inclusion: "n'est pas inclus dans la liste"
+      invalid: "est invalide"
+      less_than: "doit être inférieur à %{total}"
+      less_than_or_equal_to: "doit être inférieure ou égale à %{total}"
+      not_a_number: "n'est pas un nombre"
+      not_an_integer: "doit être un intègre"
+      odd: "doit être impair"
+      too_long: "est tros long (maximum %{total} caractères)"
+      too_short: "est trop court (minimum %{total} caractères)"
+      wrong_length: "est trop long (devrait être %{total} caractères)"
+  helpers: 
+    select: 
+      prompt: "Prière de sélectionner les aides"
+    submit: 
+      create: "Créer %{exemple} d'aides"
+      submit: "Sauvegarder %{exemple} d'aides"
+      update: "Mettre à jour %{exemple] d'aides"
   information: 
     docs: 
       project_summary: 
-        name: "R\xC3\xA9sum\xC3\xA9 du projet"
-        file: West Africa - project summary v8 - FR.pdf
+        file: "Afrique de l'Ouest - résumé du projet v9 Fév2010 - FR.pdf"
+        name: "Résumé du projet"
     gi: 
-      intro: "Afficher des rapports int\xC3\xA9ressants et des \xC3\xA9tudes pertinentes pour le projet"
-      title: "Informations g\xC3\xA9n\xC3\xA9rales"
+      intro: "Afficher des rapports intéressants et des études pertinentes pour le projet"
+      title: "Informations Générales"
     pd: 
-      intro: Pour tout savoir sur le projet
-      title: Documents du projet
-    title: Title de information
+      intro: "Pour tout savoir sur le projet"
+      title: "Documents du Projet"
+    title: "Titre de l'information"
   nav: 
     language: Langue
   number: 
-    human: 
-      decimal_units: 
-        units: 
-          million: Million
-          thousand: Mille
     currency: 
       format: 
         delimiter: ","
-        separator: .
+        format: "%u%n "
+        precision: 2
+        separator: "."
         significant: f
         strip_insignificant_zeros: f
         unit: $
     format: 
       delimiter: ","
-      separator: .
+      precision: 3
+      separator: "."
       significant: f
       strip_insignificant_zeros: f
+    human: 
+      decimal_units: 
+        format: "%n %u"
+        units: 
+          billion: Billion
+          million: Million
+          quadrillion: Quadrillion
+          thousand: Mille
+          trillion: Trillion
+      format: 
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units: 
+        format: "%n %u"
+        units: 
+          byte: 
+            autre: Octets
+            une: Octet
+          gb: GO
+          kb: KO
+          mb: MO
+          tb: TO
   people: 
     country: Pays
-    email: Email
+    email: Courriel
+    filter: Filtre
     name: Nom
     organisation: Organisation
-    role: "R\xC3\xB4le"
-  site_name: "Les Changements Climatiques et les Aires Prot\xC3\xA9g\xC3\xA9es en Afrique de l'Ouest"
+    role: Rôle
+    title: "Personnes\n"
+  site_name: "Les Changements Climatiques et les Aires Protégées en Afrique de l'Ouest"
+  translated_by: "Traduction par Claire Thiveyrat"
   support: 
     array: 
       last_word_connector: ", et"
       two_words_connector: et
       words_connector: ","
+  template: 
+    created_by: "Site internet créé à partir de"
+    nav: 
+      data_and_tools: "Données et Outils "
+      information: Information
+      people: Personnes
+  time: 
+    am: "du matin"
+    pm: d'après-midi
 
