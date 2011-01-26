@@ -11,10 +11,10 @@ en:
     title: "Title of information"
     pd:
       title: "Project Documents"
-      intro: "View studies and reports relevant to the project"
+      intro: "Find out about the project"
     gi:
       title: "General Information"
-      intro: "View interesting reports and studies relevant to the project"
+      intro: "View studies and reports relevant to the project"
     docs:
       project_summary:
         name: "Project Summary"
