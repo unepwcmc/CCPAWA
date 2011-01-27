@@ -215,6 +215,11 @@ img.locale_flag {padding:1px;}
 img.active_locale {background-color:white;}
 
 div.partner_logos {
+  background-color: #FFF;
+}
+
+div.partner_padding {
+  padding: 5px;
 }
 
 div.footer_title {
