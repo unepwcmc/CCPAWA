@@ -4,10 +4,11 @@ body {
   padding: 0;
   background-color: #eee;
   background: #CCC url(/images/background_red.png) repeat-x 0% 0%;
-  font:12px  Arial, Helvetica, sans-serif; 
+  font:12px  Tahoma, Arial, Helvetica, sans-serif; 
   font-size: 13px;
   color: #333;
 }
+p, li{ font: 13px Symbol, Arial, Helvetica, sans-serif; }
 
 a { color: #000; }
 a:visited { color: #666; }
@@ -55,7 +56,7 @@ ul.menu {
 }
 
 ul.menu li {
-  line-height:25px;
+  line-height:28px;
   text-align:center;
   height:25px;
   font-size:1.1em;
