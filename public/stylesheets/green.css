@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #eee;
   background: #CCC url(/images/background_green.png) repeat-x 0% 0%;
-  font:12px  Palatino Linotype, Arial, Helvetica, sans-serif; 
+  font:12px Palatino Linotype, Book Antiqua, Arial, Helvetica, sans-serif; 
   font-size: 13px;
   color: #333;
 }
