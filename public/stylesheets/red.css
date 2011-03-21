@@ -4,11 +4,11 @@ body {
   padding: 0;
   background-color: #eee;
   background: #CCC url(/images/background_red.png) repeat-x 0% 0%;
-  font:12px  Geneva, Tahoma, Arial, Helvetica, sans-serif; 
+  font:12px  Tahoma, Geneva, sans-serif;
   font-size: 13px;
   color: #333;
 }
-p, li{ font: 13px Symbol, Arial, Helvetica, sans-serif; }
+p, li{ font: 13px MS Sans Serif, Geneva, sans-serif; }
 
 a { color: #000; }
 a:visited { color: #666; }
