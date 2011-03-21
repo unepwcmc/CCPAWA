@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
 
   def set_theme
     @theme = 'global'
-    if ['global','green'].include? params[:theme]
+    if ['global','green', 'red'].include? params[:theme]
       @theme = params[:theme]
     end
   end
