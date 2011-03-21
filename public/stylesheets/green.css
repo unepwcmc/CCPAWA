@@ -8,7 +8,7 @@ body {
   font-size: 13px;
   color: #333;
 }
-p, li{ font-family:Georgia, Arial, Helvetica, sans-serif; }
+p, li{ font-family: Georgia, Arial, Helvetica, sans-serif; }
 
 a { color: #000; }
 a:visited { color: #666; }
