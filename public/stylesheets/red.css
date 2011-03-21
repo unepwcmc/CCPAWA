@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: #eee;
+  background: #CCC url(/images/background_red.png) repeat-x 0% 0%;
+  font:12px  Arial, Helvetica, sans-serif; 
+  font-size: 13px;
+  color: #333;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#1B558B; }
+
+h1 {
+  font-size:35px;
+  color:#FFFFFF;
+}
+
+h1 a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+h1 a:visited { color: #FFF; }
+h1 a:hover { color: #FFF; background-color:#1B558B; }
+
+div.container {
+}
+
+div.header {
+  color: #eee;
+}
+
+div.navigation{
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+            
+  background-color:#333;
+}
+
+div.navigation a{
+  text-decoration:none;
+  color:white;
+}
+
+ul.menu {
+  margin:0px;
+  list-style-type:none;
+  padding:7px;
+}
+
+ul.menu li {
+  line-height:25px;
+  text-align:center;
+  height:25px;
+  font-size:1.1em;
+  font-weight: bold;
+}
+
+div.main_content {
+  padding: 10px 0px;
+  background-color:#EEE;
+}
+
+div.footer {
+  background-color:#666;
+  color:#FFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.box {
+  -moz-box-shadow: 3px 3px 4px #BBB;
+  -webkit-box-shadow: 3px 3px 4px #BBB;
+  box-shadow: 3px 3px 4px #BBB;
+
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+
+div.box h2{
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  
+  background-color: #1B558B;
+  color: #fff;
+  
+  border: solid 1px #1B558B;
+
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+div.box div.box_body{
+  background-color: #FFF;
+
+  border: solid 1px #999;
+  border-top: none;
+
+  padding: 10px;
+  margin: 0px;
+}
+
+div.box p{
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+h4.tabled {
+  margin-top:0;
+  margin-bottom:0;
+  
+  padding:5px;
+}
+
+th.header {
+  background-color: #333;
+  color: #FFF;
+}
+
+tr.odd {
+  background-color: #EEE;
+}
+
+li.odd {
+  background-color: #EEE;
+}
+
+table.tablesorter {
+  width:100%;
+}
+
+th.header.headerSortDown {
+  background-image: url(http://tablesorter.com/themes/blue/desc.gif);
+  background-color: #1B558B;
+  
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+th.header.headerSortUp {
+  background-image: url(http://tablesorter.com/themes/blue/asc.gif);
+  background-color: #1B558B;
+  
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+ul.docs_list {
+  margin: 0px 5px 5px;
+  padding-left: 10px;
+
+  list-style:none;
+}
+
+ul.docs_list li {
+  padding: 8px;
+  padding-left: 27px;
+}
+
+ul.docs_list li.pdf {
+  background-image: url(/images/pdficon_small.gif);
+  background-repeat: no-repeat;
+  background-position: 5px 8px;
+}
+
+ul.docs_list li.site {
+  background-image: url(/images/jstree/map.png);
+  background-repeat: no-repeat;
+  background-position: 5px 8px;
+}
+
+ul.docs_list li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul.category_switch {
+  margin:0px;
+  list-style-type:none;
+  padding:0px;
+  height:34px;
+}
+
+ul.category_switch li {
+  float:left;
+  background-color:#333;
+  border: solid 3px #FFF;
+  border-bottom: none;
+  padding:5px;
+}
+
+ul.category_switch li a{
+  text-decoration: none;
+  color:#AAA
+}
+
+ul.category_switch li.active {
+  background-color:#1B558B;
+  border: solid 3px #FFE;
+}
+
+ul.category_switch li.active a{
+  color:#FFF;
+}
+
+div.language_picker{ padding-top: 25px;; text-align: right; }
+
+img.locale_flag {padding:1px;}
+img.active_locale {background-color:white;}
+
+div.partner_logos {
+  background-color: #FFF;
+}
+
+div.partner_padding {
+  padding: 5px;
+}
+
+div.footer_title {
+  text-align: right;
+  vertical-align: bottom;
+  padding-top:100px;
+}
+
+ul li.active_nav {
+  background-color:white;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+ul li.active_nav a{
+  color:#333;
+}

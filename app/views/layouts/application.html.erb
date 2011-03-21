@@ -22,8 +22,15 @@
         <h1><%= link_to t('site_name'), about_path %></h1>
       </div>
       <div class="language_picker grid_2">
-        <%= link_to image_tag('/images/flags/en.png', {class: "locale_flag #{"active_locale" if I18n.locale == :en }"}), url_for(:locale => :en) %>
-        <%= link_to image_tag('/images/flags/fr.png', {class: "locale_flag #{"active_locale" if I18n.locale == :fr }"}), url_for(:locale => :fr) %>
+        <div>
+          <%= link_to image_tag('/images/flags/en.png', {class: "locale_flag #{"active_locale" if I18n.locale == :en }"}), url_for(:locale => :en) %>
+          <%= link_to image_tag('/images/flags/fr.png', {class: "locale_flag #{"active_locale" if I18n.locale == :fr }"}), url_for(:locale => :fr) %>
+        </div>
+        <div>
+          <%= link_to image_tag('/images/themes/blue.png', {class: "locale_flag #{"active_locale" if @theme == 'global' || !['global','green', 'red'].include?(@theme) }"}), url_for(:theme => :global) %>
+          <%= link_to image_tag('/images/themes/green.png', {class: "locale_flag #{"active_locale" if @theme == 'green' }"}), url_for(:theme => :green) %>
+          <%= link_to image_tag('/images/themes/red.png', {class: "locale_flag #{"active_locale" if @theme == 'red' }"}), url_for(:theme => :red) %>
+        </div>
       </div>
     </div>
     <div class="navigation grid_12">
