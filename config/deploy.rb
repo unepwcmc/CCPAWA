@@ -27,7 +27,7 @@ set :repository, "git@github.com:unepwcmc/CCPAWA.git"
 set :scm, :git
 set :branch, "master"
 set :scm_username, "unepwcmc-read"
-set :scm_password, "conservation1"
+set :scm_password, "conserveworld1"
 #set :git_enable_submodules, 1
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
