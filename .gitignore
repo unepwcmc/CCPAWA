@@ -4,3 +4,4 @@ log/*
 *.DS_Store
 tmp/pids/server.pid
 .DS_Store
+vendor/ruby
