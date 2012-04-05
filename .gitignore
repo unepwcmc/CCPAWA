@@ -1,5 +1,6 @@
 *.swp
 *.swo
+*.un~
 log/*
 *.DS_Store
 tmp/pids/server.pid
